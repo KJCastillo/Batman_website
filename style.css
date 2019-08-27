@@ -1,0 +1,185 @@
+body {
+    background: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+  border-radius: 8%;
+}
+
+.BatmanTAS {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.IntroTAS {
+    margin: 0 auto;
+   display: block;
+   width: 560px;
+}
+
+.lists {
+    text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.batlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+header {
+  background-image: 
+    linear-gradient(0deg, gray, transparent),
+    url(https://vignette.wikia.nocookie.net/arkhamcity/images/0/00/232BatcaveWallpaper.png/revision/latest?cb=20130920174428);
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height: 400px;
+}
+
+header .batlogo {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 110%;
+  transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.f-header {
+  background-position: 100%;
+  width: 100%;
+  height: 300px;
+}
+
+/* top nav */
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: black;
+}
+
+.nav {
+  max-width: 1200px;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  font-size: 22px;
+ }
+
+ .nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+  color: white;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.t-border {
+  border-top: 2px solid black;
+}
+
+content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid black;
+}
+
+/* links same color */
+
+a:visited { 
+  text-decoration: none; color: white; 
+}
+
+a:hover { 
+  text-decoration: none; color: white; 
+}
+
+a:focus { 
+  text-decoration: none; color: white; 
+}
+
+a:hover, a:active { 
+  text-decoration: none; color: white; 
+}
+
+.c-nav {
+  color: black;
+}
+
+/* floats */
+
+.abilities
+.gadgets {
+  width: 50%;
+}
+
+.batfight {
+  float: right;
+  margin: 5px 25px;
+}
+
+.batgadget {
+  float: left;
+  width: 400px;
+  margin: 5px 25px;
+}
+
+.fampic{
+  width: 200px;
+  float: right;
+}
+
+.batfight.batgadget.fampic {
+  border-radius: 10%;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
